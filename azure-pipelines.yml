@@ -8,8 +8,6 @@ trigger:
 
 pool:
   vmImage: 'MyLinuxAgent'
-  demands:
-    - npm
 
 variables:
   buildConfiguration: 'Release'
