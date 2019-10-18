@@ -7,7 +7,6 @@ trigger:
 - master
 
 pool:
-  name: 'Self-Hosted-Azure-VMs-MWANERSK-Linux'
   vmImage: 'MyLinuxAgent'
   demands:
     - npm
