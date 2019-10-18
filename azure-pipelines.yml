@@ -6,8 +6,10 @@
 trigger:
 - master
 
-pool: 'Self-Hosted-Azure-VMs-MWANERSK-Linux'
-  vmImage: 'MyLinuxAgent'
+pool:
+  name: 'Self-Hosted-Azure-VMs-MWANERSK-Linux'
+  demands:
+    - npm
 
 variables:
   buildConfiguration: 'Release'
