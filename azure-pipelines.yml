@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool:
+pool: 'Self-Hosted-Azure-VMs-MWANERSK-Linux'
   vmImage: 'MyLinuxAgent'
 
 variables:
