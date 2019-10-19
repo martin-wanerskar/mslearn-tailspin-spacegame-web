@@ -8,6 +8,8 @@ trigger:
 
 pool:
   name: 'mwanersk laptop'
+  demands:
+    - npm
 
 variables:
   buildConfiguration: 'Release'
