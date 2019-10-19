@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'MwanerskLinuxAzure'
+  name: 'mwanersk laptop'
   demands:
     - npm
 
